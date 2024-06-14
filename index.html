@@ -68,7 +68,7 @@
             return(
                 <section className="container" >
                     <div className="card__2">
-                        <h2>Product  was Built Specifically <br/>
+                        <h2 className="text">Product  was Built Specifically <br/>
                             for You</h2>
                             <div className="blok">
                                 <div className="blok__card"><img src="img/icon.png" alt="#"/>
@@ -98,7 +98,7 @@
             return(
                      <section className="container">
                         <div className="card__3">
-                            <h2>Contents Strategies</h2>
+                            <h2 className="">Contents Strategies</h2>
                             <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
                         <div className="blok__up">
                             <div className="blok__card">
@@ -125,14 +125,109 @@
         }
 
 
+        const Section__4 = () => {
+            return(
+                <section className="container">
+                   <div className="card__4">
+                    <h2 className="text">Price Table</h2>
+                        <p className="titel"> We offer competitive price</p>
+                        <div className="blok__card__4">
+                            <div className="blok blok__card__4__1">
+                                <h3>Free</h3>
+                                <p>Brief price description</p>
+                                <div className="mani">
+                                    <h1>0</h1>
+                                    <div className="jud" >
+                                        <h6>$</h6>
+                                        <p>Per / month</p>
+                                    </div>
+                                </div>
+                                <p>Only 2 Operators</p>
+                                <p>Notifications</p>
+                                <p>Landing Pages</p>
+                                <button>Order Now</button>
+                            </div>
+                            <div className="blok blok__card__4__2">
+                                <h3>Standart</h3>
+                                <p>Brief price description</p>
+                                <div className="mani">
+                                    <h1>5</h1>
+                                    <div className="jud">
+                                        <h6>$</h6>
+                                        <p>Per / month</p>
+                                    </div>
+                                </div>
+                                <p>Only 2 Operators</p>
+                                <p>Notifications</p>
+                                <p>Landing Pages</p>
+                                <button>Order Now</button>
+                            </div>
+                            <div className="blok blok__card__4__3">
+                                <h3>Premium</h3>
+                                <p>Brief price description</p>
+                                <div className="mani">
+                                    <h1>10</h1>
+                                    <div className="jud">
+                                        <h6>$</h6>
+                                        <p>Per / month</p>
+                                    </div>
+                                </div>
+                                <p>Only 2 Operators</p>
+                                <p>Notifications</p>
+                                <p>Landing Pages</p>
+                                <button>Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            )
+        }
+
+        const Section__5 = () => {
+            return(
+                <section className="container">
+                    <div className="card__5"> 
+                        <h2>What Clients Say</h2>
+                        <p>Problems trying to resolve the conflict between <br />
+                            the two major realms of Classical physics: Newtonian mechanics </p>
+                         <div className="blok__img">
+                            <div><img src="img/card-item (1).png" alt="#" /></div>
+                            <div><img src="img/card-item (2).png" alt="#" /></div>
+                            <div><img src="img/card-item (3).png" alt="#" /></div>
+                        </div></div>
+                  
+                </section>
+            )
+        }
+
+        const Footer = () =>{
+            return(
+                <section className="container">
+                    <div className="footer">
+                        <div className="card__6">
+                            <div className="blok__1">
+                                <h4>Join 100 Compannies who <br/> boost their business with <br/> Product</h4>
+                                <button>Get This</button>
+                            </div>
+                            <div className="blok__2"><img src="img/Frame 18.png" alt="#"/></div>
+                        </div>
+                    </div>
+                </section>
+            )
+
+        }
+
 
         const App = () => {
                 return (
                     <div>
-                        <Header />
-                        <Section__1 />
+                        <Header/>
+                        <Section__1/>
                         <Section__2/>
                         <Section__3/>
+                        <Section__4/>
+                        <Section__5/>
+                        <Footer/>
                         
 
                     </div>
